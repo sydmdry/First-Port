@@ -1,0 +1,111 @@
+/*Respect widths*/
+* {
+  box-sizing: border-box;
+}
+/*Strong dark header*/
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+}
+/*Sydney Dryden*/
+h1 {
+  font-size: 50px;
+  margin: 10px;
+  font-family: 'Yellowtail', cursive;
+}
+/*Full-Stack Web Developer*/
+h2 {
+  font-size: 25px;
+  padding: 5px;
+  font-family: 'Krona One', sans-serif;
+}
+/*Part of contact section; navigation*/
+nav {
+  width: 200px;
+  background-color: darkcyan;
+  font-family: 'Krona One', sans-serif;
+  margin: 0;
+  border: 1px solid black;
+}
+/*Find Me:*/
+nav p {
+  text-align: left;
+  font-size: 15px;
+}
+/*Links for nav*/
+nav li {
+  text-align: center;
+  padding-right: 15px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color:darkgray;
+}
+
+body {
+  background-color: gainsboro;
+}
+/*Make all headings the same*/
+h3 {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Yellowtail", cursive;
+  font-size: 30px;
+}
+
+img {
+  width: 150px;
+  padding: 5px;
+}
+/*Welcome to My Page section */
+.Intro {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Intro p {
+  font-size: 16px;
+  font-family: 'Krona', sans-serif;
+}
+/*Past,Present,Future*/
+.about h4 {
+  text-align:center;
+  border: 1px solid black;
+  font-size: 20px;
+  font-family: 'Krona', sans-serif;
+  width: 50%;
+}
+
+.about p {
+  font-family: 'Krona', sans-serif;
+  font-size: 15px;
+}
+/*Contact Section*/
+.contact p {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Specify this link so it's visible*/
+.contact a:link{
+  color: darkcyan;
+}
+/*copyright*/
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  height: 10px;
+  width: 100%;
+  margin:0;
+  padding: 20px;
+}
+
